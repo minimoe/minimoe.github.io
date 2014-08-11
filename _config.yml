@@ -1,0 +1,16 @@
+# Settings
+title: "Personal space"
+description: "My personal space"
+keywords: "minimoe,minimoes"
+author: "Joakim Bick"
+baseurl: ""
+url: "http://minimoe.github.io"
+exclude: [README.md]
+
+# Build settings
+truncate: 300
+paginate: 5
+permalink: /:title/
+paginate_path: "/page/:num/"
+future: true
+highlighter: true
