@@ -4,13 +4,16 @@ description: "My personal space"
 keywords: "minimoe,minimoes"
 author: "Joakim Bick"
 baseurl: ""
-url: "http://minimoe.github.io"
-exclude: [README.md]
+url: "http://minimoe.github.com"
+github_username: minimoe
+twitter_username: minimoe
 
 # Build settings
-truncate: 300
-paginate: 5
-permalink: /:title/
-paginate_path: "/page/:num/"
-future: true
-highlighter: true
+gems:
+    - jekyll-feed
+exclude: 
+    - README.md
+    - Gemfile
+    - Gemfile.lock 
+markdown: kramdown
+theme: minima
