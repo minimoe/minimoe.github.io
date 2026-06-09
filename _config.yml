@@ -9,7 +9,7 @@ github_username: minimoe
 twitter_username: minimoe
 
 # Build settings
-gems:
+plugins:
     - jekyll-feed
 exclude: 
     - README.md
